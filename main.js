@@ -22,7 +22,19 @@ btn_first.addEventListener('click', () => {
     question_first.classList.toggle('active')
 })
 
+question_first.addEventListener('click', () => {
+    p_first.classList.toggle('visible')
+    btn_first.classList.toggle('rotate')
+    question_first.classList.toggle('active')
+})
+
 btn_second.addEventListener('click', () => {
+    p_second.classList.toggle('visible')
+    btn_second.classList.toggle('rotate')
+    question_second.classList.toggle('active')
+})
+
+question_second.addEventListener('click', () => {
     p_second.classList.toggle('visible')
     btn_second.classList.toggle('rotate')
     question_second.classList.toggle('active')
@@ -34,13 +46,31 @@ btn_third.addEventListener('click', () => {
     question_third.classList.toggle('active')
 })
 
+question_third.addEventListener('click', () => {
+    p_third.classList.toggle('visible')
+    btn_third.classList.toggle('rotate')
+    question_third.classList.toggle('active')
+})
+
 btn_fourth.addEventListener('click', () => {
     p_fourth.classList.toggle('visible')
     btn_fourth.classList.toggle('rotate')
     question_fourth.classList.toggle('active')
 })
 
+question_fourth.addEventListener('click', () => {
+    p_fourth.classList.toggle('visible')
+    btn_fourth.classList.toggle('rotate')
+    question_fourth.classList.toggle('active')
+})
+
 btn_fifth.addEventListener('click', () => {
+    p_fifth.classList.toggle('visible')
+    btn_fifth.classList.toggle('rotate')
+    question_fifth.classList.toggle('active')
+})
+
+question_fifth.addEventListener('click', () => {
     p_fifth.classList.toggle('visible')
     btn_fifth.classList.toggle('rotate')
     question_fifth.classList.toggle('active')
