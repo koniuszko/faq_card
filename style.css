@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.gradient {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    position: fixed;
+    top: 0;
+}
+
+.component {
+    width: 320px;
+    /* height: 100vh; */
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.img {
+    width: 266px;
+    height: 196px;
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+
+.woman {
+    background-image: url(./images/illustration-woman-online-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 266px;
+    height: 196px;
+
+}
+
+.bg {
+    background-image: url(./images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    width: 266px;
+    height: 196px;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+
+.questions {
+    padding: 10px 25px 25px;
+    text-align: left;
+}
+
+.question {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    padding: 150px 0 0;
+    font-size: 32px;
+}
+
+button {
+    background-image: url(./images/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button.rotate {
+    transform: rotate(180deg);
+}
+
+h2 {
+    color: hsl(237, 12%, 33%);
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: auto;
+    transition: 0.2s;
+}
+
+h2.active {
+    color: black;
+}
+
+p {
+    color: hsl(240, 6%, 50%);
+    font-size: 12px;
+    display: none;
+    transition: 0.2s;
+}
+
+p.visible {
+    display: block;
+}
