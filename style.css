@@ -69,7 +69,7 @@ body {
 }
 
 .title {
-    display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
 }
 
@@ -126,7 +126,7 @@ p.visible {
     .component {
         width: 1000px;
         min-height: 500px;
-        display: flex;
+        display: -webkit-flex;
         justify-content: right;
         overflow: hidden;
         top: 30%;
@@ -185,7 +185,7 @@ p.visible {
     }
 
     .title {
-        display: flex;
+        display: -webkit-flex;
         justify-content: space-between;
         cursor: pointer;
         transition: 0.2s;
